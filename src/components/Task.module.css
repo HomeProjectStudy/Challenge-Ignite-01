@@ -1,0 +1,55 @@
+.task {
+  max-width: 736px;
+  padding: 1.25rem;
+}
+
+.header {
+  max-width: 736px;
+  justify-content: space-between;
+  display: flex;
+}
+.tasksNumbers {
+  display: flex;
+  gap: 0.75rem;
+}
+.main {
+  margin-top: 1.5rem;
+}
+
+.content {
+  width: 736px;
+  background: var(--gray-500);
+  padding: 1rem;
+  border-radius: 8px;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  gap: 1rem;
+}
+.content + .content {
+  margin-top: 0.875rem;
+}
+.checkButton {
+  border: 0;
+  background: transparent;
+  color: var(--white);
+  cursor: pointer;
+
+  transition: color 0.2s;
+}
+
+.checkButton:hover {
+  color: var(--purple-700);
+}
+
+.trash {
+  border: 0;
+  background: transparent;
+  color: var(--white);
+
+  cursor: pointer;
+  transition: color 0.2s;
+}
+.trash:hover {
+  color: var(--red-500);
+}

@@ -1,0 +1,50 @@
+.task {
+  align-items: center;
+  justify-content: center;
+  margin-top: 4rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.containerInput {
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: -1.5rem;
+}
+.containerInput textarea {
+  background: var(--gray-500);
+  width: 736px;
+  display: flex;
+  border: 0;
+  resize: none;
+  padding: 1rem;
+  height: 3.375rem;
+  border-radius: 8px;
+  color: var(--gray-100);
+  line-height: 1.4;
+  resize: none;
+}
+
+.createdButton {
+  flex-direction: row;
+}
+.createdButton button {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  border: 0;
+  cursor: pointer;
+  color: var(--white);
+  background: var(--blue-700);
+  padding: 1rem;
+  border-radius: 8px;
+
+  transition: background-color 0.2s;
+}
+
+.createdButton button:hover {
+  background: var(--blue-300);
+}
